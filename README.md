@@ -1,70 +1,95 @@
-# PGLife - Student Accommodation Finder  
+# 🏠 PGLife - Student Accommodation Finder 🎓
 
-PGLife is a web-based platform designed to make the process of finding suitable accommodations easier for students joining colleges or universities. The application allows users to search for PGs (Paying Guest accommodations) based on city, view detailed property listings, and manage their preferences through a personalized dashboard.  
+**PGLife** is a web-based platform designed to make finding suitable accommodations easier for students joining colleges or universities. The application allows users to search for PGs (Paying Guest accommodations) based on city, view detailed property listings, and manage preferences through a personalized dashboard.
 
-## Features  
+---
+## 📸 Preview
 
-1. **User Registration & Login**  
-   - Users can sign up and log in securely using their email and password.  
-   - Data is stored in the `users` table in the MySQL database.  
+![Website Preview](./preview.gif) <!-- Optional: Add a preview GIF or another screenshot -->
 
-2. **City-Specific Search Functionality**  
-   - Search for PG accommodations based on the city entered in the search bar.  
-   - Redirects to a property list page showcasing available PGs in the selected city.  
+---
+## ✨ Features
 
-3. **Property Details**  
-   - View detailed information about a selected property, including amenities, pricing, and location.  
-   - Data is dynamically fetched from the `properties` table in the database.  
+1. 🔐 **User Registration & Login**
 
-4. **Personalized Dashboard**  
-   - Users can access saved properties and manage personal details.  
-   - Displays a list of 'interested' properties for each user.  
+   * Sign up and log in securely using email and password.
+   * Data is stored in the `users` table in MySQL.
 
-5. **Secure Logout**  
-   - Logout functionality ensures user sessions are safely terminated.  
+2. 🏙️ **City-Specific Search Functionality**
 
-## Tech Stack  
+   * Search for PG accommodations by entering the city in the search bar.
+   * View a list of PGs available in the selected city.
 
-- **Frontend:** HTML, CSS, Bootstrap, JavaScript, React  
-- **Backend:** PHP, MySQL  
+3. 📋 **Property Details**
 
-## Installation  
+   * View detailed information for each property: amenities, price, location & more.
+   * Data comes from the `properties` table.
 
-Follow these steps to set up the project locally:  
+4. 🧑‍💻 **Personalized Dashboard**
 
-1. Clone the repository:  
-   ```bash  
+   * Manage saved properties and personal profile in one place.
+   * See your list of 'interested' properties.
+
+5. 🚪 **Secure Logout**
+
+   * Safely end user sessions with the logout feature.
+
+---
+
+## 🧰 Tech Stack
+
+* **Frontend:** HTML, CSS, Bootstrap, JavaScript, React ⚛️
+* **Backend:** PHP 🐘, MySQL 🐬
+
+---
+
+## ⚙️ Installation
+
+1. 📥 Clone the repository:
+
+   ```bash
    git clone https://github.com/YourUsername/PGLife.git  
-   ```  
+   ```
 
-2. Navigate to the project directory:  
-   ```bash  
+2. 📁 Move into the project directory:
+
+   ```bash
    cd PGLife  
-   ```  
+   ```
 
-3. Set up the MySQL database:  
-   - Import the provided database file (`pglife.sql`) into your MySQL server.  
-   - Ensure the `users` and `properties` tables are correctly created.  
+3. 🛠️ Set up the MySQL database:
 
-4. Update database credentials in the PHP files:  
-   - Modify the `db.php` file with your MySQL credentials.  
+   * Import `pglife.sql` into your MySQL server.
+   * Ensure `users` and `properties` tables are created.
 
-5. Start a local server:  
-   - Use XAMPP, WAMP, or any local server tool to host the project files.  
-   - Place the project in the `htdocs` folder (for XAMPP).  
+4. 🔑 Update database credentials:
 
-6. Access the application:  
-   - Open your browser and navigate to `http://localhost/PGLife`.  
+   * Edit `db.php` with your MySQL username and password.
 
-## Usage  
+5. 🚀 Start the local server:
 
-1. Sign up with a new account or log in using an existing account.  
-2. Search for accommodations by entering a city name in the search bar.  
-3. View detailed property listings and save properties of interest.  
-4. Access your dashboard to manage saved properties and personal details.  
+   * Use **XAMPP**, **WAMP**, or any local server tool.
+   * Place the project folder in the `htdocs` directory (for XAMPP).
 
-## Future Enhancements  
+6. 🌐 Access the application:
 
-- Add filters for property search (price range, amenities, etc.).  
-- Include a messaging feature for direct communication with property owners.  
-- Implement Google Maps integration for precise property locations.  
+   * Open a browser and go to `http://localhost/PGLife`.
+
+---
+
+## 🧪 Usage
+
+1. 📝 Register a new account or login with an existing one.
+2. 🔍 Search PGs by entering a city name.
+3. 🏢 Browse detailed listings and mark properties you like.
+4. 📂 Manage preferences via your personal dashboard.
+
+---
+
+## 🚀 Future Enhancements
+
+* 🔍 Add filters (price range, amenities, sharing options, etc.)
+* 💬 Messaging system to connect users with property owners.
+* 🗺️ Google Maps integration for pinpoint locations.
+
+---
