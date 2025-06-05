@@ -5,7 +5,7 @@
 ---
 ## 📸 Preview
 
-![Website Preview](./preview.gif) <!-- Optional: Add a preview GIF or another screenshot -->
+![Website Preview](./pglife.png) <!-- Optional: Add a preview GIF or another screenshot -->
 
 ---
 ## ✨ Features
